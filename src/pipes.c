@@ -44,8 +44,8 @@ void update_pipes(float dt){
 void spawn_pipes(){
     Node *newPipes = (Node*)malloc(sizeof(Node));
     int offset = GetRandomValue(-100, 100);
-    newPipes->top  = (Pipes){PIPES_WIDTH, SCREEN_HEIGHT/2 - 90 - offset, SCREEN_WIDTH + 20, CEIL_Y};
-    newPipes->down = (Pipes){PIPES_WIDTH, SCREEN_HEIGHT/2 - 90 + offset, SCREEN_WIDTH + 20, FLOOR_Y - (SCREEN_HEIGHT/2 - 90 + offset)};
+    newPipes->top  = (Pipes){PIPES_WIDTH, SCREEN_HEIGHT/2 - PIPES_MOUTH_GAP - offset, SCREEN_WIDTH + 20, CEIL_Y};
+    newPipes->down = (Pipes){PIPES_WIDTH, SCREEN_HEIGHT/2 - PIPES_MOUTH_GAP + offset, SCREEN_WIDTH + 20, FLOOR_Y - (SCREEN_HEIGHT/2 - PIPES_MOUTH_GAP + offset)};
     newPipes->next = NULL;
     
     int pipesGap = GetRandomValue(50, 200);
