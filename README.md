@@ -1,0 +1,71 @@
+<div align="center">
+
+# Flappy (Raylib + C)
+
+A simple reimplementation of *Flappy Bird* built using low-level C and the raylib library.  
+This project was created to understand **game development fundamentals from scratch**—without relying on heavy game engines.
+
+<img width="722" height="480" alt="Image" src="https://github.com/user-attachments/assets/df523f29-3869-4f10-bdd0-ad357d60267f" />
+
+</div>
+
+---
+
+## About the Project
+
+This project focuses on learning how games actually work under the hood:
+
+* Game loop (**Init → Update → Draw**)
+* Frame-independent movement using `delta time`
+* Basic physics (gravity & jump mechanics)
+* Dynamic obstacle generation (pipes)
+* Modular code structure with headers and source files
+
+The goal was not to build a polished game, but to **build a strong foundation in low-level game development**.
+
+## Project Structure
+
+```
+.
+├── build/              # Compiled executable
+├── raylib/             # Raylib headers and libraries
+├── src/
+│   ├── main.c          # Entry point
+│   ├── game.c          # Game loop logic
+│   ├── player.c        # Player mechanics
+│   ├── pipes.c         # Pipe system
+│   ├── ground.c        # Ground rendering
+│   └── include/        # Header files
+├── Makefile
+└── README.md
+```
+
+---
+
+## How to Run
+
+### 1. Install Dependencies
+
+* C compiler (MinGW / GCC)
+* raylib
+
+
+### 2. Build & Run
+
+```
+mingw32-make run
+```
+
+Or download the prebuilt executable from the **Releases** section.
+
+
+## Controls
+
+* **SPACE** → Jump
+
+
+## ⚠️ Notes
+
+* This project is intentionally simple and not optimized for production
+* Built purely for learning and experimentation
+
