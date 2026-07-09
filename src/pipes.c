@@ -18,8 +18,8 @@ const int totalPipes = 5;
 void draw_pipes(){
     Node *temp = head;
     while(temp != NULL){
-        DrawRectangle(temp->top.x, temp->top.y, temp->top.w, temp->top.h, RED);
-        DrawRectangle(temp->down.x, temp->down.y, temp->down.w, temp->down.h, ORANGE);
+        DrawRectangle(temp->top.x, temp->top.y, temp->top.w, temp->top.h, PIPES);
+        DrawRectangle(temp->down.x, temp->down.y, temp->down.w, temp->down.h, PIPES);
         temp = temp->next;
     }
 }

@@ -8,7 +8,7 @@
 Player player = {30, 10, 50, SCREEN_HEIGHT/2, 0, PLAYER_JUMP_POWER};
 
 void draw_player(){
-    DrawRectangle(player.x, player.y, player.w, player.h, RED);
+    DrawRectangle(player.x, player.y, player.w, player.h, PLAYER);
 }
 
 void update_player(float dt){

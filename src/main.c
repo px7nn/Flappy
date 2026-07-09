@@ -17,7 +17,7 @@ int main(){
             Update(GetFrameTime());
 
         BeginDrawing();
-            ClearBackground(BLACK);
+            ClearBackground(BACKGROUND);
             // drawing stuffs
             Draw();
             
