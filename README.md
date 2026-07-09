@@ -29,7 +29,10 @@ This project focuses on learning how games actually work under the hood:
 
 The goal was not to build a polished game, but to **build a strong foundation in low-level game development**.
 
-## Project Structure
+---
+
+<details>
+  <summary><b>Project Structure</b></summary>
 
 ```
 .
@@ -48,22 +51,7 @@ The goal was not to build a polished game, but to **build a strong foundation in
 
 ---
 
-## How to Run
-
-### 1. Install Dependencies
-
-* C compiler (MinGW / GCC)
-* raylib
-
-
-### 2. Build & Run
-
-```
-mingw32-make run
-```
-
-Or download the prebuilt executable from the **Releases** section.
-
+</details>
 
 ## Controls
 
