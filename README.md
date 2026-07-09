@@ -1,15 +1,21 @@
-<div align="center">
+<img align="right" style="width:428px" width="488px" src="https://github.com/user-attachments/assets/58bd40ba-26f0-4440-9455-20cc086c6b28" />
 
-# Flappy (Raylib + C)
-
-A simple reimplementation of *Flappy Bird* built using low-level C and the raylib library.  
-This project was created to understand **game development fundamentals from scratch**—without relying on heavy game engines.
-
-<img width="722" height="480" alt="Image" src="https://github.com/user-attachments/assets/df523f29-3869-4f10-bdd0-ad357d60267f" />
-
+<div id="toc">
+  <ul style="list-style: none">
+    <summary>
+      <h1> Flappy (Raylib + C) </h1>
+    </summary>
+  </ul>
 </div>
 
+**A simple reimplementation of *Flappy Bird* built using low-level C and the raylib library.**  
+
+This project was created to understand **game development fundamentals from scratch**—without relying on heavy game engines.
+
+
 ---
+
+<br/>
 
 ## About the Project
 
